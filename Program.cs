@@ -16,7 +16,7 @@ try
         Console.WriteLine($"Input Array: [{string.Join(", ", nums[i])}]");
         Console.WriteLine($"Target Value: {target[i]}");
         
-        int[] result = Solution.TwoSum(nums[i], target[i]);
+        int[] result = Solutions.TwoSum(nums[i], target[i]);
 
 
         if (result.Length == 2)
